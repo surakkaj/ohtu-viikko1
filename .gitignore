@@ -1,2 +1,2 @@
-cat target/
+$ cat target/
 *.tmp
