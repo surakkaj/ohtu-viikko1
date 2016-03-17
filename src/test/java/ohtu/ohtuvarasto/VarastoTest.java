@@ -80,7 +80,7 @@ public class VarastoTest {
     public void nollanOttaminenEiTeeMitaan(){
         varasto.lisaaVarastoon(-2);
         varasto.otaVarastosta(-2);
-        assertEquals(1, varasto.getSaldo(), vertailuTarkkuus);
+        assertEquals(0, varasto.getSaldo(), vertailuTarkkuus);
     }
 
     @Test
